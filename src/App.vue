@@ -17,56 +17,62 @@
     </nav>
 
     <header class="relative border-b border-slate-200 bg-[radial-gradient(#e2e8f0_1px,transparent_1px)] [background-size:24px_24px]">
-      <div class="max-w-5xl mx-auto px-6 py-20 md:py-32 relative z-10">
-        <h1 class="text-5xl md:text-6xl font-extrabold tracking-tight text-slate-900 mb-6 leading-tight bg-white/70 inline-block pr-4 rounded-lg">
-          Hi, I'm an IT student <br class="hidden md:block" /> building modern applications.
-        </h1>
-        <p class="text-lg md:text-xl text-slate-700 max-w-2xl mb-8 leading-relaxed bg-white/80 p-2 rounded-lg backdrop-blur-sm">
-          I'm in my final year at Can Tho University. I enjoy working across the stack and specialize in a diverse range of languages and tools to solve problems and create seamless user experiences.
-        </p>
+      <div class="max-w-5xl mx-auto px-6 py-20 md:py-32 relative z-10 flex flex-col-reverse md:flex-row items-center gap-12">
+        <div class="flex-1">
+          <h1 class="text-5xl md:text-6xl font-extrabold tracking-tight text-slate-900 mb-6 leading-tight bg-white/70 inline-block pr-4 rounded-lg">
+            Hi, I'm an IT student <br class="hidden md:block" /> building modern applications.
+          </h1>
+          <p class="text-lg md:text-xl text-slate-700 max-w-2xl mb-8 leading-relaxed bg-white/80 p-2 rounded-lg backdrop-blur-sm">
+            I'm in my final year at Can Tho University. I enjoy working across the stack and specialize in a diverse range of languages and tools to solve problems and create seamless user experiences.
+          </p>
 
-        <div class="flex flex-wrap gap-3 mb-10 max-w-3xl">
-          <span class="flex items-center px-3 py-1.5 bg-white text-slate-700 text-sm font-semibold rounded-md border border-slate-200 shadow-sm hover:border-slate-300 transition-colors">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" class="w-4 h-4 mr-2" alt="C#" /> C#
-          </span>
-          <span class="flex items-center px-3 py-1.5 bg-white text-slate-700 text-sm font-semibold rounded-md border border-slate-200 shadow-sm hover:border-slate-300 transition-colors">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" class="w-4 h-4 mr-2" alt="HTML5" /> HTML5
-          </span>
-          <span class="flex items-center px-3 py-1.5 bg-white text-slate-700 text-sm font-semibold rounded-md border border-slate-200 shadow-sm hover:border-slate-300 transition-colors">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" class="w-4 h-4 mr-2" alt="CSS3" /> CSS3
-          </span>
-          <span class="flex items-center px-3 py-1.5 bg-white text-slate-700 text-sm font-semibold rounded-md border border-slate-200 shadow-sm hover:border-slate-300 transition-colors">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" class="w-4 h-4 mr-2" alt="JavaScript" /> JavaScript
-          </span>
-          <span class="flex items-center px-3 py-1.5 bg-white text-slate-700 text-sm font-semibold rounded-md border border-slate-200 shadow-sm hover:border-slate-300 transition-colors">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original.svg" class="w-4 h-4 mr-2" alt="Vue.js" /> Vue.js
-          </span>
-          <span class="flex items-center px-3 py-1.5 bg-white text-slate-700 text-sm font-semibold rounded-md border border-slate-200 shadow-sm hover:border-slate-300 transition-colors">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg" class="w-4 h-4 mr-2" alt="PHP" /> PHP
-          </span>
-          <span class="flex items-center px-3 py-1.5 bg-white text-slate-700 text-sm font-semibold rounded-md border border-slate-200 shadow-sm hover:border-slate-300 transition-colors">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" class="w-4 h-4 mr-2" alt="MySQL" /> MySQL
-          </span>
-          <span class="flex items-center px-3 py-1.5 bg-white text-slate-700 text-sm font-semibold rounded-md border border-slate-200 shadow-sm hover:border-slate-300 transition-colors">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" class="w-4 h-4 mr-2" alt="Python" /> Python
-          </span>
-          <span class="flex items-center px-3 py-1.5 bg-white text-slate-700 text-sm font-semibold rounded-md border border-slate-200 shadow-sm hover:border-slate-300 transition-colors">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" class="w-4 h-4 mr-2" alt="Java" /> Java
-          </span>
-          <span class="flex items-center px-3 py-1.5 bg-white text-slate-700 text-sm font-semibold rounded-md border border-slate-200 shadow-sm hover:border-slate-300 transition-colors">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dart/dart-original.svg" class="w-4 h-4 mr-2" alt="Dart" /> Dart
-          </span>
-          <span class="flex items-center px-3 py-1.5 bg-white text-slate-700 text-sm font-semibold rounded-md border border-slate-200 shadow-sm hover:border-slate-300 transition-colors">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg" class="w-4 h-4 mr-2" alt="Figma" /> Figma
-          </span>
+          <div class="flex flex-wrap gap-3 mb-10 max-w-3xl">
+            <span class="flex items-center px-3 py-1.5 bg-white text-slate-700 text-sm font-semibold rounded-md border border-slate-200 shadow-sm hover:border-slate-300 transition-colors">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" class="w-4 h-4 mr-2" alt="C#" /> C#
+            </span>
+            <span class="flex items-center px-3 py-1.5 bg-white text-slate-700 text-sm font-semibold rounded-md border border-slate-200 shadow-sm hover:border-slate-300 transition-colors">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" class="w-4 h-4 mr-2" alt="HTML5" /> HTML5
+            </span>
+            <span class="flex items-center px-3 py-1.5 bg-white text-slate-700 text-sm font-semibold rounded-md border border-slate-200 shadow-sm hover:border-slate-300 transition-colors">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" class="w-4 h-4 mr-2" alt="CSS3" /> CSS3
+            </span>
+            <span class="flex items-center px-3 py-1.5 bg-white text-slate-700 text-sm font-semibold rounded-md border border-slate-200 shadow-sm hover:border-slate-300 transition-colors">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" class="w-4 h-4 mr-2" alt="JavaScript" /> JavaScript
+            </span>
+            <span class="flex items-center px-3 py-1.5 bg-white text-slate-700 text-sm font-semibold rounded-md border border-slate-200 shadow-sm hover:border-slate-300 transition-colors">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original.svg" class="w-4 h-4 mr-2" alt="Vue.js" /> Vue.js
+            </span>
+            <span class="flex items-center px-3 py-1.5 bg-white text-slate-700 text-sm font-semibold rounded-md border border-slate-200 shadow-sm hover:border-slate-300 transition-colors">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg" class="w-4 h-4 mr-2" alt="PHP" /> PHP
+            </span>
+            <span class="flex items-center px-3 py-1.5 bg-white text-slate-700 text-sm font-semibold rounded-md border border-slate-200 shadow-sm hover:border-slate-300 transition-colors">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" class="w-4 h-4 mr-2" alt="MySQL" /> MySQL
+            </span>
+            <span class="flex items-center px-3 py-1.5 bg-white text-slate-700 text-sm font-semibold rounded-md border border-slate-200 shadow-sm hover:border-slate-300 transition-colors">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" class="w-4 h-4 mr-2" alt="Python" /> Python
+            </span>
+            <span class="flex items-center px-3 py-1.5 bg-white text-slate-700 text-sm font-semibold rounded-md border border-slate-200 shadow-sm hover:border-slate-300 transition-colors">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" class="w-4 h-4 mr-2" alt="Java" /> Java
+            </span>
+            <span class="flex items-center px-3 py-1.5 bg-white text-slate-700 text-sm font-semibold rounded-md border border-slate-200 shadow-sm hover:border-slate-300 transition-colors">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dart/dart-original.svg" class="w-4 h-4 mr-2" alt="Dart" /> Dart
+            </span>
+            <span class="flex items-center px-3 py-1.5 bg-white text-slate-700 text-sm font-semibold rounded-md border border-slate-200 shadow-sm hover:border-slate-300 transition-colors">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg" class="w-4 h-4 mr-2" alt="Figma" /> Figma
+            </span>
+          </div>
+
+          <a href="mailto:YOUR_EMAIL@EXAMPLE.COM" class="inline-flex items-center bg-blue-600 text-white px-8 py-3 rounded-full font-semibold hover:bg-blue-700 transition-all shadow-md hover:shadow-lg hover:-translate-y-0.5">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-5 h-5 mr-2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
+            </svg>
+            Get in touch
+          </a>
         </div>
-
-        <a href="mailto:YOUR_EMAIL@EXAMPLE.COM" class="inline-flex items-center bg-blue-600 text-white px-8 py-3 rounded-full font-semibold hover:bg-blue-700 transition-all shadow-md hover:shadow-lg hover:-translate-y-0.5">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-5 h-5 mr-2">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
-          </svg>
-          Get in touch
-        </a>
+        
+        <div class="w-48 h-48 md:w-72 md:h-72 shrink-0 rounded-full overflow-hidden border-8 border-white shadow-xl">
+          <img src="./assetS/IMG_1899.jpg" alt="Profile Picture" class="w-full h-full object-cover" />
+        </div>
       </div>
     </header>
 
@@ -99,16 +105,12 @@
           </div>
 
           <div class="group">
-            <div class="bg-slate-900 aspect-video rounded-xl mb-6 overflow-hidden border border-slate-800 p-8 shadow-sm flex flex-col justify-center relative transition-transform duration-500 group-hover:-translate-y-1 group-hover:shadow-lg">
-               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8 text-blue-400 mb-4 absolute top-6 right-6 opacity-30">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 6.75L22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3l-4.5 16.5" />
-               </svg>
-               <h4 class="text-blue-400 font-mono text-sm mb-3"># Database Migration</h4>
-               <p class="text-slate-200 font-medium leading-relaxed text-lg z-10">Refactored legacy SQLi codebase to secure PDO, eliminating injection vulnerabilities.</p>
+            <div class="bg-slate-100 aspect-video rounded-xl mb-6 overflow-hidden border border-slate-200 relative shadow-sm">
+              <img src="./assets/image.png" alt="Zenith Preview" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
             </div>
-            <h3 class="text-2xl font-bold text-slate-900 mb-2">Expense Manager</h3>
+            <h3 class="text-2xl font-bold text-slate-900 mb-2">Zenith</h3>
             <p class="text-slate-600 mb-4">
-              A financial tracking application highlighting backend security. Led the migration of the database connectivity from standard SQLi to robust PDO prepared statements.
+              A locally hosted financial tracking application utilizing SQLi and a PHP backend to securely and efficiently manage daily expenses.
             </p>
             <div class="flex items-center space-x-4">
                <a href="#" class="inline-flex items-center text-slate-600 font-semibold hover:text-slate-900 transition-colors">
